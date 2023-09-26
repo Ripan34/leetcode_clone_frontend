@@ -1,0 +1,36 @@
+.container{
+    background-color: #282828;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    justify-content: space-between;
+    align-items: center;
+}
+.premBtn{
+    background-color: #413729;
+    padding: 8px;
+    color: #d48822;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.navText{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 600;
+}

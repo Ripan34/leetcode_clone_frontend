@@ -1,0 +1,114 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px);
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.problemDesc{
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e1e;
+    height: 100%;
+    border-radius: 4px;
+}
+.edit{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+.testCases{
+    width:100%;
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    height: 42%;
+    box-sizing: border-box;
+}
+.topBar{
+    height: 25px;
+    background-color: #303030;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.topBarLeft{
+    height: 25px;
+    background-color: #303030;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.topText{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    font-weight: 600;
+}
+.tabBarText{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+.selected{
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    height: 1.3px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.desContainer {
+    padding: 20px;
+}
+.title{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+.infoBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.problemP{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+.split {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+    cursor: col-resize;
+}

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.tbHead{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    position: relative;
+}
+th{
+    padding: 10px;
+}

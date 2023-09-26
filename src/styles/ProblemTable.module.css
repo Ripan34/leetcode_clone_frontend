@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+}
+.problemRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 14px;
+    color: white;
+}
+.header{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #2696ff;
+}
+table { border-collapse:collapse }
+.tableRow {
+    background-color: #1a1a1a;
+  }
+.tableRow:nth-child(even) {
+    background-color: #282828; 
+  }
+td {
+    padding: 10px;
+  }
+  

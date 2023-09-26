@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.topBar{
+    height: 50px;
+    width: 100%;
+    background-color: #303030;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-sizing: border-box;
+}
+.tabBarText{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.selected{
+    width: 100%;
+    position: absolute;
+    bottom: -7px;
+    height: 1.3px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.bottomBar{
+    height: 50px;
+    width: 100%;
+    background-color: #303030;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-sizing: border-box;
+}
+.bottomRightDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+}
+.run{
+    background-color: #454545;
+    padding: 4px 15px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.submit{
+    background-color: #2cbb5d;
+    padding: 4px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+.middleDiv{
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.cases {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.caseDiv{
+    padding: 4px 15px;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-direction: row;
+}
+.inpDiv{
+    background-color: #3e3e3e;
+    height: 30px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+.caseDiv:hover{
+    background-color: #3e3e3e;
+}
+.passCirc{
+    background-color: #2dbb5d;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.failCirc{
+    background-color: #EF4743;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
